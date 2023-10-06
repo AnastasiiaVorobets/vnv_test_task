@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-import advantages from '../../data/advantagesData';
 import './WhyUs.css';
+import advantages from '../../data/advantagesData';
 
 function WhyUs() {
   const containerRef = useRef(null);

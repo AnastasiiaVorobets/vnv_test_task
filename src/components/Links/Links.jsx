@@ -1,10 +1,8 @@
+import React from 'react';
 import './Links.css';
 import socialLinks from '../../data/linksData';
 
-import React from 'react';
-
 function Links() {
-
   return (
     <>
     <h2 className='links__title'>/ You can find us</h2>

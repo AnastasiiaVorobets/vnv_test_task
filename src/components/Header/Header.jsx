@@ -1,3 +1,4 @@
+import Widget from '../Widget/Widget';
 import './Header.css';
 
 function Header() {
@@ -12,6 +13,7 @@ function Header() {
         <h2 className='header__title'>/ IT company </h2>
         <button className='header__button'>Order →</button>
       </div>
+      <Widget />
     </header>
   )
 }

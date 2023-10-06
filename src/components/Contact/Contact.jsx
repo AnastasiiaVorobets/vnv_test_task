@@ -1,5 +1,5 @@
-import './Contact.css';
 import React, { useState } from 'react';
+import './Contact.css';
 
 function Contact() {
   const [contactMethod, setContactMethod] = useState('email');

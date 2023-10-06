@@ -9,6 +9,7 @@
 6. BriefForm
 7. FAQ
 8. Links
+9. Widget
 
 ## Technologies
 - Node v16.20.2
