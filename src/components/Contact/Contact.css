@@ -34,6 +34,7 @@
   width: 100%;
   padding: 10px;
   margin-bottom: 50px;
+  font-family: "Arial";
   background-color: rgb(131, 132, 132);
   resize: none;
 }
@@ -60,6 +61,10 @@ button {
 button:hover {
   background-color: rgb(69, 69, 69);
   cursor: pointer;
+}
+
+*:focus {
+  outline: none;
 }
 
 @media (max-width: 768px) {

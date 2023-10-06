@@ -33,11 +33,11 @@
 
 .service-button:hover {
   transform: scale(1.1);
-  background-color: #c6dffa;
+  background-color: #bfcad6;
 }
 
 .service-button.active {
-  background-color: #a4cefa;
+  background-color: #c2d5ea;
   color: #fff;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .want-button:active {
-  background-color: #a4cefa;
+  background-color: #aec7e1;
 }
 
 

@@ -22,14 +22,14 @@ function BriefForm() {
     <h2 className='brief__title'>/ Brief form</h2>
     <div className="brief-form">
       {!briefVisible ? (
-        <div>
+        <div className='brief-form-container'>
             <div className='brief__description'>
               <div>
                 <p>
-                  A brief is a document that helps gather information from a client before starting a project or providing a service.
+                  A brief is a document that helps gather information <br />from a client before starting a project or providing a service.
                 </p>
                 <p>
-                  It helps to understand the needs and expectations of the customer in order to create the perfect product or service.
+                  It helps to understand the needs and expectations of <br />the customer in order to create the perfect product or service.
                 </p>
               </div>
             <button onClick={handleBriefButtonClick}>Fill now</button>

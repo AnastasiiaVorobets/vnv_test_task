@@ -1,6 +1,8 @@
 - [DEMO LINK](https://anastasiiavorobets.github.io/vnv_test_task/)
 
 ## About the project
+###  Adaptive design
+###  Components:
 1. Header
 2. Why US
 3. Services
@@ -9,7 +11,7 @@
 6. BriefForm
 7. FAQ
 8. Links
-9. Widget
+9. Widget (Located in the lower right corner)
 
 ## Technologies
 - Node v16.20.2
