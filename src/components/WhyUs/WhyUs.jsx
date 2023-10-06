@@ -39,8 +39,10 @@ function WhyUs() {
               style={{ display: index === visibleAdvantageIndex ? 'block' : 'none' }}
             >
               <p className='advantage__id'>0{advantage.id}/</p>
-              <h3>{advantage.title}</h3>
-              <p>{advantage.description}</p>
+              <div className='advantage__text'>
+                <h3>{advantage.title}</h3>
+                <p>{advantage.description}</p>
+              </div>
               <button
                 className="order-button"
                 onClick={scrollRight}

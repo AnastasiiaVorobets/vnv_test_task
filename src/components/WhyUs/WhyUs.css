@@ -27,10 +27,12 @@
   padding: 20px;
   width: 500px;
   text-align: center;
-  background-color: #c0bfbf;
+  background-color: #444444;
+  color: white;
   border-radius: 15px;
   position: relative;
   overflow: hidden;
+  opacity: 80%;
   cursor: pointer;
   transition: background-color 0.5s;
 }
@@ -63,6 +65,26 @@
 
 .advantage__id {
   text-align: left;
+}
+
+.advantage__text {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  animation: pulse-border 2s infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #4693c7;
+  }
+  100% {
+    border-color: transparent;
+  }
 }
 
 .order-button {
