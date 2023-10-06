@@ -114,7 +114,6 @@
   transform: translateX(20px);
 }
 
-
 @media (max-width: 1000px) {
   .scroll-button {
     width: 60px;;

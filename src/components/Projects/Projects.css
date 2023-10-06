@@ -39,6 +39,7 @@
   text-transform: uppercase;
   border: 1px solid white;
 }
+
 @media (max-width: 768px) {
   .projects__title {
     margin-left: 20px;
@@ -63,5 +64,4 @@
   .video {
     max-width: 100%;
   }
-  
 }

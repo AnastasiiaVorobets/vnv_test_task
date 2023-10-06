@@ -4,7 +4,7 @@ import './BriefForm.css';
 function BriefForm() {
   const [briefVisible, setBriefVisible] = useState(false);
   const [briefText, setBriefText] = useState('');
-  
+
   const handleBriefButtonClick = () => {
     setBriefVisible(true);
   };

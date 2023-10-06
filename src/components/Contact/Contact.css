@@ -32,8 +32,8 @@
 .input-field input,
 .input-field textarea {
   width: 100%;
-  padding: 10px;
   margin-bottom: 50px;
+  padding: 10px;
   font-family: "Arial";
   background-color: rgb(131, 132, 132);
   resize: none;
@@ -48,10 +48,10 @@ textarea {
 }
 
 button {
-  display: block;
   margin: 0 auto;
   width: 200px;
   height: 50px;
+  display: block;
   background-color: black;
   color: white;
   border: 1px solid white;

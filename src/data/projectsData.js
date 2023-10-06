@@ -8,5 +8,4 @@ const projects = [
   { type: 'video', url: 'https://example.com/video2.mp4', title: 'Project 4' },
 ];
 
-
 export default projects;

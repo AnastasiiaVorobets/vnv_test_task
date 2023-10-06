@@ -20,7 +20,7 @@ function Widget() {
           href="https://t.me/vnv_solutions"
           className='link'
         >
-          Write to us - Telegram
+          Write to us → Telegram
         </a>
         <img 
           src={whiteLogo} 
