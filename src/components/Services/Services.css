@@ -1,0 +1,79 @@
+.services__title {
+  margin-left: 450px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: 100;
+  color: white;
+  transition: all 1s;
+}
+
+.services__title:hover {
+  text-decoration: underline;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-button {
+  margin-right: 10px;
+  margin-bottom: 50px;
+  height: 40px;
+  font-size: 11px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.service-button:hover {
+  transform: scale(1.1);
+  background-color: #c6dffa;
+}
+
+.service-button.active {
+  background-color: #a4cefa;
+  color: #fff;
+}
+
+.service-details {
+  margin: 0 auto;
+  padding: 10px;
+  width: 1050px;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(205, 205, 205);
+  border-radius: 5px;
+}
+
+.service-id {
+  margin-left: 20px;
+  text-align: left;
+  color: black;
+}
+
+.want-button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(239, 239, 239);
+  background-color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.want-button:hover {
+  background-color: #d2e0ef;
+}
+
+.want-button:active {
+  background-color: #a4cefa;
+}

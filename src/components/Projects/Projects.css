@@ -1,0 +1,34 @@
+.projects__title {
+  margin-left: 450px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: 100;
+  color: white;
+  transition: all 1s;
+}
+
+.projects__title:hover {
+  text-decoration: underline;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.video {
+  max-width: 600px;
+}
