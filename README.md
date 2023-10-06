@@ -1,4 +1,4 @@
-- [DEMO LINK](https://anastasiiavorobets.github.io/tech_task_vnv/)
+- [DEMO LINK](https://anastasiiavorobets.github.io/vnv_test_task/)
 
 ## About the project
 1. Header
