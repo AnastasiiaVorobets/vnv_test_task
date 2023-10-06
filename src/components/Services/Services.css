@@ -15,10 +15,10 @@
 }
 
 .services-list {
+  margin: 0 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-basis: calc(33.33% - 10px);
 }
 
 .service-button {
@@ -79,8 +79,13 @@
   background-color: #aec7e1;
 }
 
+@media (max-width: 900px) {
+  .services-list {
+    margin: 150;
+  }
+}
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .services__title {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -88,6 +93,7 @@
   }
 
   .services-list {
+    margin: 0;
     flex-direction: column;
   }
 
