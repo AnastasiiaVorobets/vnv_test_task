@@ -4,6 +4,8 @@ import './BriefForm.css';
 function BriefForm() {
   const [briefVisible, setBriefVisible] = useState(false);
   const [briefText, setBriefText] = useState('');
+  const [clientInfoText, setClientInfoText] = useState('');
+  const [timeframeText, setTimeframeText] = useState('');
 
   const handleBriefButtonClick = () => {
     setBriefVisible(true);
@@ -13,16 +15,24 @@ function BriefForm() {
     setBriefText(e.target.value);
   };
 
+  const handleClientInfoChange = (e) => {
+    setClientInfoText(e.target.value);
+  };
+
+  const handleTimeframeChange = (e) => {
+    setTimeframeText(e.target.value);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
   return (
     <>
-    <h2 className='brief__title'>/ Brief form</h2>
-    <div className="brief-form">
-      {!briefVisible ? (
-        <div className='brief-form-container'>
+      <h2 className='brief__title'>/ Brief form</h2>
+      <div className="brief-form">
+        {!briefVisible ? (
+          <div className='brief-form-container'>
             <div className='brief__description'>
               <div>
                 <p>
@@ -32,11 +42,11 @@ function BriefForm() {
                   It helps to understand the needs and expectations of <br />the customer in order to create the perfect product or service.
                 </p>
               </div>
-            <button onClick={handleBriefButtonClick}>Fill now</button>
+              <button onClick={handleBriefButtonClick}>Fill now</button>
+            </div>
           </div>
-        </div>
-      ) : (
-        <form onSubmit={handleSubmit} className='input__field'>
+        ) : (
+          <form onSubmit={handleSubmit} className='input__field'>
             <textarea
               value={briefText}
               onChange={handleBriefChange}
@@ -45,22 +55,22 @@ function BriefForm() {
             ></textarea>
 
             <textarea
-              value={briefText}
-              onChange={handleBriefChange}
+              value={clientInfoText}
+              onChange={handleClientInfoChange}
               cols="50"
               placeholder="Client Information"
             ></textarea>
 
             <textarea
-              value={briefText}
-              onChange={handleBriefChange}
+              value={timeframeText}
+              onChange={handleTimeframeChange}
               cols="50"
               placeholder="What is your ideal timeframe?"
             ></textarea>
-          <button type="submit">Send</button>
-        </form>
-      )}
-    </div>
+            <button type="submit">Send</button>
+          </form>
+        )}
+      </div>
     </>
   );
 }

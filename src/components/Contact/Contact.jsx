@@ -4,13 +4,34 @@ import './Contact.css';
 function Contact() {
   const [contactMethod, setContactMethod] = useState('email');
   const [contactText, setContactText] = useState('');
+  const [emailText, setEmailText] = useState('');
+  const [telegramText, setTelegramText] = useState('');
+  const [whatsappText, setWhatsappText] = useState('');
+  const [viberText, setViberText] = useState('');
 
   const handleContactMethodChange = (event) => {
     setContactMethod(event.target.value);
+    setContactText('');
   };
 
   const handleContactTextChange = (event) => {
     setContactText(event.target.value);
+  };
+
+  const handleEmailTextChange = (event) => {
+    setEmailText(event.target.value);
+  };
+
+  const handleTelegramTextChange = (event) => {
+    setTelegramText(event.target.value);
+  };
+
+  const handleWhatsappTextChange = (event) => {
+    setWhatsappText(event.target.value);
+  };
+
+  const handleViberTextChange = (event) => {
+    setViberText(event.target.value);
   };
 
   const handleSubmit = (event) => {
@@ -92,15 +113,31 @@ function Contact() {
 
           <input
             type={contactMethod === 'email' ? 'email' : 'text'}
-            value={contactText}
-            onChange={handleContactTextChange}
+            value={
+              contactMethod === 'email'
+                ? emailText
+                : contactMethod === 'telegram'
+                ? telegramText
+                : contactMethod === 'whatsapp'
+                ? whatsappText
+                : viberText
+            }
+            onChange={
+              contactMethod === 'email'
+                ? handleEmailTextChange
+                : contactMethod === 'telegram'
+                ? handleTelegramTextChange
+                : contactMethod === 'whatsapp'
+                ? handleWhatsappTextChange
+                : handleViberTextChange
+            }
             placeholder={getPlaceholder(contactMethod).input}
           />
           <textarea
             value={contactText}
             placeholder="Message"
-            onChange={handleContactTextChange}>
-          </textarea>
+            onChange={handleContactTextChange}
+          />
           <button
             type="submit"
           >
