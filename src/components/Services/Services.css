@@ -82,3 +82,31 @@
 .want-button:active {
   background-color: #a4cefa;
 }
+
+@media (max-width: 768px) {
+  .services__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .service-button {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .service-details {
+    width: 90%;
+  }
+
+  .service-id {
+    margin-left: 0;
+    text-align: center;
+  }
+}

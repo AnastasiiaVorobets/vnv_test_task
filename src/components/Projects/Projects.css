@@ -33,3 +33,29 @@
 .video {
   max-width: 600px;
 }
+
+@media (max-width: 768px) {
+  .projects__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .projects-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .projects-items {
+    justify-content: center;
+  }
+
+  .projects-item {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .video {
+    max-width: 100%;
+  }
+}

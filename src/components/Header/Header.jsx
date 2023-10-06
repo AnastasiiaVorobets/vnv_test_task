@@ -1,11 +1,11 @@
-import Widget from '../Widget/Widget';
 import './Header.css';
+import logo from '../../images/logo.png'
 
 function Header() {
   return (
     <header className="header">
       <div className='header__name'>
-        <img src="/images/logo.png" alt="vnv_solutions" className='header__logo'/>
+        <img src={logo} alt="vnv_solutions" className='header__logo'/>
         <h1 className='header__logo-name'>SOLUTIONS</h1>
       </div>
       <p className='header__description'>Easy, quality, IT - winning solutions for your business</p>
@@ -13,7 +13,6 @@ function Header() {
         <h2 className='header__title'>/ IT company </h2>
         <button className='header__button'>Order →</button>
       </div>
-      <Widget />
     </header>
   )
 }

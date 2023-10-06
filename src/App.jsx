@@ -7,10 +7,12 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import BriefForm from './components/BriefForm/BriefForm';
 import Question from './components/Question/Question';
+import Widget from './components/Widget/Widget';
 
 function App() {
   return (
     <div className="App">
+      <Widget />
       <Header />
       <WhyUs />
       <Services />

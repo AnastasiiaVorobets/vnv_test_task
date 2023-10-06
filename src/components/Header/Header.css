@@ -1,6 +1,7 @@
 .header {
   font-size: 20px;
   font-weight: 100px;
+  height: 100vh;
 }
 
 .header__name {
@@ -29,7 +30,7 @@
 .header__inner {
   display: flex;
   align-items: center;
-  gap: 500px;
+  gap: 300px;
 }
 
 .header__title {
@@ -51,4 +52,29 @@
   height: 50px;
   background-color: #6d747c;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 16px;
+  }
+
+  .header__name {
+    margin-bottom: 40px;
+  }
+
+  .header__logo {
+    width: 80px;
+  }
+
+  .header__logo-name {
+    font-size: 16px;
+  }
+
+  .header__description {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: auto;
+    font-size: 30px;
+  }
 }

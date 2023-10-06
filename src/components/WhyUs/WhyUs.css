@@ -58,3 +58,39 @@
 .scroll-button:active {
   background-color: #545658; 
 }
+
+
+@media (max-width: 768px) {
+  .whyUs {
+    margin-bottom: 20px;
+  }
+
+  .whyUs__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .advantages-container {
+    flex-direction: column;
+  }
+
+  .advantage {
+    margin: 10px 0;
+    width: 300px
+  }
+
+  .advantage__id {
+    text-align: left;
+  }
+
+  .advantage-description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .scroll-button {
+    margin: 10px 0;
+  }
+}

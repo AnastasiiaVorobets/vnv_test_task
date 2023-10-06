@@ -24,7 +24,7 @@ function Question() {
           className='show-more-button'
           onClick={() => setShowMore(true)}
         >
-          showMore
+          Show more
         </button>
       )}
     </div>

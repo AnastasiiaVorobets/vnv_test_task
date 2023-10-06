@@ -1,40 +1,34 @@
 import React, { useState } from 'react';
 import './Widget.css';
+import whiteLogo from '../../images/whiteLogo.png';
 
 function Widget() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
+  const handleClose = () => {
+    setIsOpen(false);
   };
 
   return (
-    <div className="widget">
-      <button className="widget-button" onClick={openModal}>
-        CLICK HERE TO RECEIVE A SPECIAL OFFER
-      </button>
-
-      {isModalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <div className='offer'>
-              <p>Congratulations!</p>
-              <p>You have received a FREE consultation</p>
-              <button
-                className="close-modal"
-                onClick={closeModal}
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </div>
+    isOpen && (
+      <div className="widget">
+        <span className="close" onClick={handleClose}>
+          &times;
+        </span>
+        <p>Right now you can get a FREE consultation</p>
+        <a
+          href="https://t.me/vnv_solutions"
+          className='link'
+        >
+          Write to us - Telegram
+        </a>
+        <img 
+          src={whiteLogo} 
+          alt="vnv_solutions" 
+          className='widget__logo'
+        />
+      </div>
+    )
   );
 }
 

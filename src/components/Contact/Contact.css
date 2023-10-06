@@ -41,6 +41,7 @@
   padding: 10px;
   margin-bottom: 50px;
   background-color: rgb(131, 132, 132);
+  resize: none;
 }
 
 textarea {
@@ -65,4 +66,37 @@ button {
 button:hover {
   background-color: rgb(69, 69, 69);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contact__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact-methods {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .input-field {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .input-field input,
+  .input-field textarea {
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 0 auto;
+    width: 90%;
+  }
 }

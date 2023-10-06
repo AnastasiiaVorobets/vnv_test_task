@@ -37,7 +37,28 @@
   align-items: center;
 }
 
-::placeholder{
+::placeholder {
   color: rgb(75, 75, 75);
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .brief-form {
+    margin-bottom: 80px;
+  }
+
+  .brief__title {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .brief__description {
+    flex-direction: column;
+  }
+
+  .input__field {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
