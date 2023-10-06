@@ -45,6 +45,16 @@
   height: 50px;
   background-color: #6d747c;
   cursor: pointer;
+  transition: all 0.5s ease
+}
+
+.header__button:hover {
+  transform: translateX(20px);
+  background: linear-gradient(to right, #89badb, #d3cbca);
+}
+
+.header__button:not(:hover) {
+  transform: translateX(-30px);
 }
 
 @media (max-width: 1000px) {

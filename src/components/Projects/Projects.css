@@ -6,7 +6,13 @@
   color: white;
 }
 
+.projects {
+  margin-bottom: 150px;
+}
+
 .projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
   margin-bottom: 150px;
   display: flex;
   justify-content: center;
@@ -20,14 +26,19 @@
 }
 
 .projects-item {
-  margin: 10px;
+  margin: 30px;
   text-align: center;
 }
 
-.video {
-  max-width: 600px;
+.photo ,.video{
+  height: 200px;
+  width: 350px;
 }
 
+.project__title {
+  text-transform: uppercase;
+  border: 1px solid white;
+}
 @media (max-width: 768px) {
   .projects__title {
     margin-left: 20px;
@@ -52,4 +63,5 @@
   .video {
     max-width: 100%;
   }
+  
 }

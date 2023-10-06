@@ -23,7 +23,14 @@ function WhyUs() {
     <section>
       <h2 className='whyUs__title'>/ Why Us?</h2>
       <div className="whyUs">
-        <button className="scroll-button" onClick={scrollLeft}>←</button>
+        <div className='scroll-left'>
+          <button
+            className="scroll-button"
+            onClick={scrollLeft}
+          >
+            ←
+          </button>
+        </div>
         <div className="advantages-container" ref={containerRef}>
           {advantages.map((advantage, index) => (
             <div
@@ -34,10 +41,23 @@ function WhyUs() {
               <p className='advantage__id'>0{advantage.id}/</p>
               <h3>{advantage.title}</h3>
               <p>{advantage.description}</p>
+              <button
+                className="order-button"
+                onClick={scrollRight}
+              >
+                Order
+              </button>
             </div>
           ))}
         </div>
-        <button className="scroll-button" onClick={scrollRight}>→</button>
+        <div className="scroll-right">
+          <button
+            className="scroll-button"
+            onClick={scrollRight}
+          >
+            →
+          </button>
+        </div>
       </div>
     </section>
   );

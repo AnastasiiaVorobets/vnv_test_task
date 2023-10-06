@@ -10,14 +10,14 @@ function Projects() {
           {projects.map((item, index) => (
             <div key={index} className="projects-item">
               {item.type === 'photo' ? (
-                <img src={item.url} alt={item.title} className='photo' />
+                <img src={item.image} alt={item.title} className='photo' />
               ) : (
                 <video controls className="video">
-                  <source src={item.url} type="video/mp4" />
+                  <source src={item.image} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               )}
-              <p>{item.title}</p>
+              <p className='project__title'>{item.title}</p>
             </div>
           ))}
         </div>
