@@ -4,6 +4,7 @@
   text-align: left;
   font-weight: 100;
   color: white;
+  cursor: pointer;
   transition: all 1s;
 }
 

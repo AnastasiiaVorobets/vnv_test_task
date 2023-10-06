@@ -1,0 +1,30 @@
+.question {
+  margin-bottom: 150px;
+}
+
+.question__title {
+  margin-left: 450px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: 100;
+  color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.question__title:hover {
+  text-decoration: underline;
+}
+
+.question__block {
+  margin: 0 auto;
+  padding: 20px 50px;
+  width: 800px;
+  font-weight: 100;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.show-more-button {
+  margin: 20px auto
+}

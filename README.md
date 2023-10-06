@@ -4,12 +4,11 @@
 1. Header
 2. Why US
 3. Services
-4. 
-5. 
-6. 
-7. 
-8. 
-9. Links
+4. Projects
+5. Contact
+6. BriefForm
+7. FAQ
+8. Links
 
 ## Technologies
 - Node v16.20.2

@@ -1,0 +1,43 @@
+.brief-form {
+  margin-bottom: 150px;
+}
+
+.brief-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.brief__title {
+  margin-left: 450px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: 100;
+  color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.brief__title:hover {
+  text-decoration: underline;
+}
+
+.brief__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input__field {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+::placeholder{
+  color: rgb(75, 75, 75);
+  text-align: left;
+}

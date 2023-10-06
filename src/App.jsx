@@ -5,6 +5,8 @@ import Services from './components/Services/Services';
 import Links from './components/Links/Links';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import BriefForm from './components/BriefForm/BriefForm';
+import Question from './components/Question/Question';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Services />
       <Projects />
       <Contact />
+      <BriefForm />
+      <Question />
       <Links />
     </div>
   );

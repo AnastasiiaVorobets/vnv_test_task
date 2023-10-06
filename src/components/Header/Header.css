@@ -39,6 +39,7 @@
   text-align: left;
   font-weight: 100;
   color: white;
+  cursor: pointer;
   transition: all 1s;
 }
 
@@ -49,6 +50,6 @@
 .header__button {
   width: 100px;
   height: 50px;
-  background-color: #c6dffa;
+  background-color: #6d747c;
   cursor: pointer;
 }

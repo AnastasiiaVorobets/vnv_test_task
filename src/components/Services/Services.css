@@ -4,6 +4,7 @@
   text-align: left;
   font-weight: 100;
   color: white;
+  cursor: pointer;
   transition: all 1s;
 }
 
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .services-list {
@@ -59,13 +60,17 @@
   color: black;
 }
 
+.service-description {
+  margin-bottom: 50px;
+}
+
 .want-button {
   width: 100px;
   height: 40px;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 100;
   color: rgb(239, 239, 239);
   background-color: black;
-  border-radius: 15px;
   cursor: pointer;
   transition: all 1s;
 }
