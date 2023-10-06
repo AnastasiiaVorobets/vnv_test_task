@@ -4,12 +4,6 @@
   text-align: left;
   font-weight: 100;
   color: white;
-  cursor: pointer;
-  transition: all 1s;
-}
-
-.services__title:hover {
-  text-decoration: underline;
 }
 
 .services-container {
@@ -17,11 +11,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .services-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .service-button {
@@ -47,8 +44,8 @@
 .service-details {
   margin: 0 auto;
   padding: 10px;
-  width: 1050px;
-  height: 300px;
+  width: 90%;
+  height: 350px;
   text-align: center;
   background-color: rgb(205, 205, 205);
   border-radius: 5px;
@@ -82,6 +79,7 @@
 .want-button:active {
   background-color: #a4cefa;
 }
+
 
 @media (max-width: 768px) {
   .services__title {

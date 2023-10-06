@@ -13,12 +13,6 @@
   text-align: left;
   font-weight: 100;
   color: white;
-  cursor: pointer;
-  transition: all 1s;
-}
-
-.whyUs__title:hover {
-  text-decoration: underline;
 }
 
 .advantages-container {
@@ -34,8 +28,8 @@
   width: 500px;
   height: 200px;
   text-align: center;
-  background-color: #e4dede;
-  border-radius: 30px;
+  background-color: #c0bfbf;
+  border-radius: 15px;
 }
 
 .advantage__id {
@@ -72,6 +66,7 @@
   }
 
   .advantages-container {
+    margin: 10px;
     flex-direction: column;
   }
 

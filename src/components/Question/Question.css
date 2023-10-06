@@ -8,12 +8,6 @@
   text-align: left;
   font-weight: 100;
   color: white;
-  cursor: pointer;
-  transition: all 1s;
-}
-
-.question__title:hover {
-  text-decoration: underline;
 }
 
 .question__block {
@@ -41,8 +35,9 @@
   }
 
   .question__block {
-    width: 100%;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 80%;
     border-radius: 0;
   }
 

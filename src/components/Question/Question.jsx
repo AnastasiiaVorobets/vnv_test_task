@@ -10,7 +10,7 @@ function Question() {
 
   return (
     <div className='question'>
-      <h2 className='question__title'>FAQ</h2>
+      <h2 className='question__title'>/ FAQ</h2>
       <div className='question__block'>
         {visibleQuestions.map((qa) => (
           <div key={qa.id} className='question__item'>

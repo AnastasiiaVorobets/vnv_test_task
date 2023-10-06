@@ -4,12 +4,6 @@
   text-align: left;
   font-weight: 100;
   color: white;
-  cursor: pointer;
-  transition: all 1s;
-}
-
-.links__title:hover {
-  text-decoration: underline;
 }
 
 .social-links {
@@ -26,7 +20,6 @@
 }
 
 .social-links li:hover {
-  border: 3px solid rgb(244, 244, 158);
   background-color: rgb(210, 234, 255);
   color: black;
   transform: scale(1.2);
