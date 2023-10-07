@@ -1,13 +1,13 @@
+.projects {
+  margin-bottom: 150px;
+}
+
 .projects__title {
   margin-left: 450px;
   margin-bottom: 50px;
   text-align: left;
   font-weight: 100;
   color: white;
-}
-
-.projects {
-  margin-bottom: 150px;
 }
 
 .projects-container {
@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+
   .projects__title {
     margin-left: 20px;
     margin-bottom: 20px;
