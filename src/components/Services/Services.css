@@ -14,17 +14,26 @@
   flex-wrap: wrap;
 }
 
-.services-list {
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 300px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(168, 165, 165);
+}
+
+.services-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .service-button {
-  margin-right: 10px;
-  margin-bottom: 50px;
-  height: 40px;
+  width: 100px;
+  margin-bottom: 10px;
+  height: 50px;
   font-size: 11px;
   border-radius: 15px;
   cursor: pointer;
@@ -80,7 +89,7 @@
 }
 
 @media (max-width: 900px) {
-  .services-list {
+  .services {
     margin: 150;
   }
 }

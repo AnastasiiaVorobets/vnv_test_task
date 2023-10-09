@@ -109,6 +109,7 @@ function Contact() {
           <input
             type="text"
             placeholder="Name"
+            required
           />
 
           <input
@@ -132,6 +133,7 @@ function Contact() {
                 : handleViberTextChange
             }
             placeholder={getPlaceholder(contactMethod).input}
+            required
           />
           <textarea
             value={contactText}

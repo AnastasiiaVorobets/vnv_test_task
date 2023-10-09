@@ -23,8 +23,14 @@ textarea {
 
 .input__field {
   display: flex;
+  flex-direction: column;
   gap: 50px;
   align-items: center;
+}
+
+.submitted-message {
+  margin: 20px;
+  text-align: center;
 }
 
 ::placeholder {
